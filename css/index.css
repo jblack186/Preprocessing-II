@@ -168,6 +168,18 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+#head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+  align-content: flex-start;
+  border-bottom: dashed #C0C0C0 2px;
+  flex-grow: initial;
+}
+#head h1 {
+  margin-right: 15px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -225,20 +237,26 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1rem;
-  align-content: flex-start;
-}
-header nav {
+nav {
   list-style: none;
   display: flex;
   justify-items: space-between;
 }
-header nav a {
+a {
   text-decoration: none;
   color: black;
-  margin-right: 15px;
+  margin-right: 1.5rem;
+  font-size: 20px;
+}
+p {
+  padding: 15px 0 15px 0;
+}
+.top-content {
+  border-bottom: dashed 2px #C0C0C0;
+}
+.top-content h2 {
+  padding-top: 15px;
+}
+html {
+  font-size: 62.5%;
 }

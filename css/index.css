@@ -225,3 +225,20 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  align-content: flex-start;
+}
+header nav {
+  list-style: none;
+  display: flex;
+  justify-items: space-between;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+}
